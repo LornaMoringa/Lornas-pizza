@@ -27,25 +27,31 @@ h2{
     text-align: center;
 }
 #about{
-    margin-top: 4cm;
+    margin-top: 10px;
     font-size: 40px;
     color:rgb(134, 90, 32);
 }
 #contact{
-    
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(134, 90, 32);
+
 }
 h3{
     color:rgb(134, 90, 32);
 }
 .hline { 
-    width:100%;
+    width:200%;
     height:5px;
     color: rgb(134, 90, 32);
     background:rgb(134, 90, 32);
 }
 .footerr{
     color:rgb(134, 90, 32);
-    padding-top: 40px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    margin-top: 40px;
+
 }
 .navb >.nav-link:hover{
     box-shadow:0 0 0 0.625em rgba(0,0,0,0.1),insert 0 0 0.625em rgba(240, 4, 4, 0.6);
