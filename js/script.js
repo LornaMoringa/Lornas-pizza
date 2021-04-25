@@ -29,3 +29,19 @@ $(document).ready(function () {
             this.newTopping = topping;
             this.newQuantity = number;
         }
+        var userInput = new Order(flavor(), size(), crust(), topping(), number());
+
+        var totalCost =
+            (userInput.newSize +
+                userInput.newCrust +
+                userInput.newTopping +
+                userInput.newFlavor) *
+            userInput.newQuantity;
+
+        var customerName = prompt("Please enter your name");
+        var phoneNumber = prompt("enter your phone number");
+        var location = prompt("Enter your location");
+        var newCost = totalCost + 200;
+
+        var newCustomerName = customerName.toUpperCase();
+        var recipt = (newCustomerName + phoneNumber + location);
