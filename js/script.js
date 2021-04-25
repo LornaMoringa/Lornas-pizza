@@ -45,3 +45,22 @@ $(document).ready(function () {
 
         var newCustomerName = customerName.toUpperCase();
         var recipt = (newCustomerName + phoneNumber + location);
+        if (recipt != null) {
+            document.getElementById("demo").innerHTML =
+                "Hello " + newCustomerName + "!";
+            document.getElementById("demo2").innerHTML =
+                "Your charge for pizza costs  Ksh" + totalCost;
+            document.getElementById("demo3").innerHTML =
+                "Pick your preffered pizza at " + location;
+            document.getElementById("demo4").innerHTML =
+                "Delivery fee of ksh200";
+            document.getElementById("demo5").innerHTML =
+                "Total Cost is Ksh " + newCost;
+            document.getElementById("demo6").innerHTML =
+                "THANK YOU FOR TRUSTING US AND WELCOME AGAIN!!"
+        }
+
+        $("#formorder").reset();
+
+    });
+})
