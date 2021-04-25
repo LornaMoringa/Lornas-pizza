@@ -40,12 +40,9 @@ h3{
     color: rgb(134, 90, 32);
     background:rgb(134, 90, 32);
 }
-.social{
-    text-align: center;
-    height: 50px;
-}
 .footerr{
     color:rgb(134, 90, 32);
+    padding-top: 40px;
 }
 .navb >.nav-link:hover{
     box-shadow:0 0 0 0.625em rgba(0,0,0,0.1),insert 0 0 0.625em rgba(240, 4, 4, 0.6);
