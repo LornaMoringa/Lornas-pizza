@@ -59,7 +59,7 @@ $(document).ready(function () {
             document.getElementById("demo5").innerHTML =
                 "Total Cost is Ksh " + newCost;
             document.getElementById("demo6").innerHTML =
-                "THANK YOU FOR TRUSTING LORNAS PIZZA and welcome again!"
+                "THANK YOU FOR TRUSTING LORNAS PIZZA AND WELCOME AGAIN!"
         }
 
         $("#formorder").reset();
