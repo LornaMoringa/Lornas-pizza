@@ -29,6 +29,7 @@ $(document).ready(function () {
             this.newTopping = topping;
             this.newQuantity = number;
         }
+
         var userInput = new Order(flavor(), size(), crust(), topping(), number());
 
         var totalCost =
@@ -45,6 +46,7 @@ $(document).ready(function () {
 
         var newCustomerName = customerName.toUpperCase();
         var recipt = (newCustomerName + phoneNumber + location);
+
         if (recipt != null) {
             document.getElementById("demo").innerHTML =
                 "Hello " + newCustomerName + "!";
@@ -57,7 +59,7 @@ $(document).ready(function () {
             document.getElementById("demo5").innerHTML =
                 "Total Cost is Ksh " + newCost;
             document.getElementById("demo6").innerHTML =
-                "THANK YOU FOR TRUSTING US AND WELCOME AGAIN!!"
+                "THANK YOU FOR TRUSTING LORNAS PIZZA!!"
         }
 
         $("#formorder").reset();
