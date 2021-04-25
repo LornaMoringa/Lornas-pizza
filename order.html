@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lornas Pizza</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav navb text-white">
+                    <a class="nav-item nav-link active text-white" href="index.html">Home <span
+                            class="sr-only"></span></a>
+                    <a class="nav-item nav-link text-white" href="order.html">Place Order</a>
+                    <a class="nav-item nav-link text-white" href="about.html">About us</a>
+                    <a class="nav-item nav-link text-white" href="contact.html">contact us</a>
+
+ 
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container mt-5">
+        <h3> <em>Place your Order Here:</em></h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form class="formorder">
+                    <div class="form-group">
+                        <label for="flavor">Pizza Flavor</label>
+                        <select class="form-control" id="flavor" required>
+                            <option></option>
+                            <option label="mushooms" value="500">Mushrooms</option>
+                            <option label="chicken" value="700">Chicken pizza</option>
+                            <option label="beef" value="950">Beef Pizza</option>
+                            <option label="sausage" value="1000">Sausage Pizza</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="size">Pizza Size</label>
+                        <select class="form-control" id="size" required>
+                            <option></option>
+                            <option label="small" value="500">Small</option>
+                            <option label="medium" value="700">Medium</option>
+                            <option label="large" value="1000">Large</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="crust">Pizza Crust</label>
+                        <select class="form-control" id="crust" required>
+                            <option></option>
+                            <option label="cripsy" value="800">Crispy</option>
+                            <option label="stuffed" value="1000">Stuffed</option>
+                            <option label="gluten" value="1500">Gluten-free</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="topping">Pizza Toppings</label>
+                        <select class="form-control" id="topping" required>
+                            <option label="" value=""></option>
+                            <option label="pepperoni" value="500">Pepperoni</option>
+                            <option label="mushrooms" value="1000">Mushrooms</option>
+                            <option label="onions" value="700">Onions</option>
+                            <option label="sausage" value="700">Sausage</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="number"><strong>Number of Pizza </strong><em>(i.e 1,2,3)</em></label>
+                        <input type="number" class="form-control" id="number" required>
+                    </div>
+                    <button type="submit" id="submit" class="btn btn-primary mb-2">Submit</button>
+                </form>
+            </div>
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-header">
+                        <h3> Your Order</h3>
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <div class="display" id="demo"></div>
+                            <div class="display" id="demo2"></div>
+                            <div class="display" id="demo3"></div>
+                            <div class="display" id="demo4"></div>
+                            <div class="display" id="demo5"></div>
+                            <div class="display" id="demo6"></div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5 footerr">
+        <div class="hline"></div>
+        <div class="contacts">
+            <strong>
+                <h6>Contact Us</h6>
+            </strong>
+            <img src="images/fb48.png" alt="facebook">
+            <img src="images/48in.png" alt="instagram">
+            <img src="images/48t.png" alt="twitter">
+            <img src="images/48p.png" alt="whatsapp"><br>
+            <strong>email:</strong><em>lornakirui023.com</em><br>
+            <strong>Phone</strong><em>0725684342</em><br>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
